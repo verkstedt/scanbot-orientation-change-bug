@@ -1,0 +1,15 @@
+{
+  "name": "scanbot-orientation-change-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync --no-ui --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.14",
+    "scanbot-web-sdk": "2.2.0"
+  }
+}
