@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "cp -rv ./node_modules/scanbot-web-sdk/bundle scanbot-web-wdk",
     "start": "browser-sync --no-ui --watch"
   },
   "author": "",
